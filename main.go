@@ -17,9 +17,9 @@ import (
 )
 
 var port = flag.String("port", "8080", "Application port to use")
-var statsURL = flag.String("stats-url", "https://raw.githubusercontent.com/cloud-native-nordics/meetups/master/config.json", "Location of the stats file")
+var statsURL = flag.String("stats-url", "https://github.com/cloudnative-id/stats-api/blob/master/data/stats.json", "Location of the stats file")
 var slackToken = flag.String("slack-token", "", "Slack token to produce invites")
-var slackURL = flag.String("slack-url", "https://cloud-native-nordics.slack.com", "URL to the slack community")
+var slackURL = flag.String("slack-url", "", "URL to the slack community")
 var slackCommunity = flag.String("slack-community", "Cloud Native Nordics", "Name of the slack community")
 
 func main() {
