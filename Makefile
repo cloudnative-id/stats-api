@@ -21,7 +21,7 @@ build-docker:
 
 docker:
 	docker build -t "$(DOCKER_REPO)/$(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_TAG)" \
-		-f ./Dockerfile
+		-f ./Dockerfile .
 
 docker-publish:
 	docker push "$(DOCKER_REPO)/$(DOCKER_IMAGE_NAME):$(DOCKER_IMAGE_TAG)"
