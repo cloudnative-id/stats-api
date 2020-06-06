@@ -184,50 +184,105 @@
       }
     },
     {
-      "photo": "https://secure.meetupstatic.com/photos/event/d/9/3/highres_483783475.jpeg",
-      "name": "Cloud Native Test",
-      "city": "Aalborg",
-      "country": "sweden",
-      "description": "\u003cp\u003eCloud Native Aalborg is a meetup having focus on Cloud Native technologies. Cloud Native technologies are graduated and incubating projects, such as: Kubernetes, Prometheus, Envoy, fluentd and e.g. OpenTracing, Jaeger, etc. to mention a few. \u003cbr\u003eTechnologies and practices around the platform of platforms will also be on the agenda for the meetup group. \u003cbr\u003eWe are a small group of people passionate about these technologies working together with the Cloud Native Nordics team in an effort to share experiences, and provide a platform for like-minded people to present and discuss these awesome technologies.\u003c/p\u003e\n\u003cp\u003eCloud Native Aalborg will apply for being an official Cloud Native Computing Foundation meetup group, and part of the Cloud Native Nordics community as well.\u003c/p\u003e\n\u003cp\u003eYou can join the Cloud Native Nordics Slack Community for further discussions: \u003ca href=\"https://www.cloudnativenordics.com\" class=\"linkified\"\u003ehttps://www.cloudnativenordics.com\u003c/a\u003e and to share your thoughts and ideas with other people sharing the passion for this.\u003c/p\u003e",
+      "photo": "https://secure.meetupstatic.com/photos/event/5/d/b/8/highres_483803992.jpeg",
+      "name": "Cloud Native Copenhagen",
+      "city": "Copenhagen",
+      "country": "denmark",
+      "description": "\u003cp\u003eCloud Native Copenhagen is a new meet-up group focusing on the Cloud Native stack. This means projects such as Kubernetes, Prometheus, OpenTracing, gRPC, fluentd... We are a small group of people passionate about these technologies that would like to share our experiences, and provide a platform for like-minded people to present and discuss these awesome technologies.\u003c/p\u003e",
       "sponsorTiers": {
-        "ruangguru": "SpeakerProvider",
-        "redhat": "Meetup"
+        "cncf": "SpeakerProvider",
+        "falconio": "Meetup",
+        "humio": "SpeakerProvider",
+        "jfrog": "SpeakerProvider",
+        "laszlocloud": "Meetup",
+        "loodse": "SpeakerProvider",
+        "microsoft": "SpeakerProvider",
+        "praqma": "Meetup",
+        "republikken": "Meetup",
+        "simcorp": "Meetup",
+        "trifork": "Meetup",
+        "twentythree": "Meetup",
+        "unity": "Meetup",
+        "whyyy": "Meetup"
       },
-      "meetupID": "Cloud-Native-Aalborg",
+      "meetupID": "Cloud-Native-Copenhagen",
       "organizers": [
-        "allanhojgaardjensen",
-        "arnemejlholm",
-        "simonbengtsson",
-        "camillalarsen"
+        "laszlo",
+        "jasmine",
+        "jeppe",
+        "hans"
       ],
       "cfpLink": "",
-      "latitude": 57.055465,
-      "longitude": 9.917825,
+      "latitude": 55.676111,
+      "longitude": 12.568333,
       "ecosystemMembers": null,
       "meetups": {
-        "20190904": {
-          "id": 263744803,
-          "photo": "https://secure.meetupstatic.com/photos/event/3/0/b/4/highres_483972468.jpeg",
-          "name": "#1 - Initial Meetup in Cloud Native Aalborg",
-          "date": "2019-09-04T17:00:00Z",
+        "20171212": {
+          "id": 245248552,
+          "name": "Let's kick-off Cloud Native Copenhagen!",
+          "date": "2017-12-12T17:00:00Z",
           "duration": "3h0m0s",
-          "attendees": 54,
-          "address": "Skelagervej 15",
+          "attendees": 27,
+          "address": "Sortedam Dossering 5D",
           "recording": "",
           "sponsors": [
             {
               "role": "Venue",
-              "company": "redhat"
+              "company": "twentythree"
             }
           ],
           "presentations": [
             {
-              "duration": "15m0s",
-              "title": "Welcome from Sparnord",
-              "slides": "https://github.com/Cloud-Native-Aalborg/media/blob/master/slides/CloudNative-Aalborg-1.pdf",
+              "duration": "20m0s",
+              "title": "Doors open",
+              "slides": "",
+              "speakers": null
+            },
+            {
+              "duration": "10m0s",
+              "title": "Welcome from Cloud Native Copenhagen",
+              "slides": "",
+              "speakers": null
+            },
+            {
+              "duration": "10m0s",
+              "title": "Welcome from TwentyThree",
+              "slides": "",
+              "speakers": null
+            },
+            {
+              "duration": "30m0s",
+              "title": "What is Cloud Native?",
+              "slides": "https://github.com/cloud-native-nordics/meetups/blob/add-copenhagen-meetups/copenhagen/2017/cloud-native-copenhagen-1/What-is-Cloud-Native.pdf",
               "speakers": [
-                "luxas"
+                "laszlo"
               ]
+            },
+            {
+              "duration": "30m0s",
+              "title": "Food break - group discussions",
+              "slides": "",
+              "speakers": null
+            },
+            {
+              "duration": "30m0s",
+              "title": "Jenkins as Code",
+              "slides": "https://github.com/cloud-native-nordics/meetups/blob/add-copenhagen-meetups/copenhagen/2017/cloud-native-copenhagen-1/JenkinsAsCode.pdf",
+              "speakers": [
+                "ewelina"
+              ]
+            },
+            {
+              "duration": "50m0s",
+              "title": "Group discussions - continued",
+              "slides": "",
+              "speakers": null
+            },
+            {
+              "duration": "0s",
+              "title": "Gates close",
+              "slides": "",
+              "speakers": null
             }
           ]
         }
